@@ -3,7 +3,9 @@ import TestimonialsCard from '../components/TestimonialsCard';
 const Testimonials = () => {
     return (
         <div className="p-8">
-            <h2 className="flex flex-col items-center font-palanquin text-4xl lg:max-w-lg font-bold">O que as nossas alunas dizem sobre o Clube da Bailarina Preparada:</h2>
+            <div className="text-center">
+                <h2 className="font-palanquin text-4xl font-bold text-[#C5E1E9] mb-8">O que as nossas alunas dizem sobre o CBP:</h2>
+            </div>
             <TestimonialsCard />
         </div>
     );

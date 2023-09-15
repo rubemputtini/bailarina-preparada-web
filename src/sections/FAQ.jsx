@@ -5,7 +5,7 @@ const FAQ = () => {
 
     return (
         <section className="mx-auto p-8">
-            <h2 className="text-4xl font-bold mb-6 text-center text-[#AAA7CC]">DÚVIDAS FREQUENTES</h2>
+            <h2 className="text-4xl font-bold mb-6 text-center text-[#A6BDCE]">DÚVIDAS FREQUENTES</h2>
             {questionsFAQ.map((item, index) => (
                 <FAQItem key={index} question={item.question} answer={item.answer} />
             ))}

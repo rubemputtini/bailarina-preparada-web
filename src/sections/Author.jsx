@@ -2,7 +2,7 @@ import { isabella } from "../assets/images";
 
 const Author = () => {
     return (
-        <div className="bg-gray-100 py-12">
+        <div className="py-12">
             <div className="max-w-4xl mx-auto px-4">
                 <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center">
                     <img

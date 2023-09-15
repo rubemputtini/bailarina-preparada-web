@@ -3,9 +3,9 @@ import Nav from "./components/Nav";
 import WhatsAppButton from "./components/WhatsAppButton";
 
 const App = () => (
-  <main className="relative">
+  <main className="relative  bg-[#302539]">
     <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b bg-[#504359]">
+    <section className="xl:padding-l wide:padding-r padding-b">
       <Hero />
     </section>
     <section className="padding">
@@ -26,7 +26,7 @@ const App = () => (
     <section className="padding">
       <Guarantee />
     </section>
-    <section className="bg-pale-blue padding">
+    <section className="padding">
       <Testimonials />
     </section>
     <section className="padding">
@@ -35,7 +35,7 @@ const App = () => (
     <section className="padding-x sm:py-32 py-16 w-full">
       <Author />
     </section>
-    <section className="padding bg-gray-100">
+    <section className="padding">
       <FAQ />
     </section>
     <Footer />

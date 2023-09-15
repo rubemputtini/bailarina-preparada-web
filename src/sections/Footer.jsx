@@ -3,7 +3,7 @@ import { socialMedia } from '../constants';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#8794b4]">
+        <footer className="">
             <div className="w-full max-w-screen-xl mx-auto p-6 md:py-8">
                 <div className="text-center mb-6 md:text-left md:flex md:items-center md:justify-between">
                     <div className="block mb-2">

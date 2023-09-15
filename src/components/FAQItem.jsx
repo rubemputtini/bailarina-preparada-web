@@ -8,13 +8,13 @@ const FAQItem = ({ question, answer }) => {
     };
 
     return (
-        <div className="border-b border-gray-300 py-4 hover:bg-gray-100 mb-3">
+        <div className="border-b border-[#C5E1E9] py-4 mb-3">
             <div className="flex justify-between items-center cursor-pointer" onClick={toggleAnswer}>
-                <h3 className="text-lg font-medium">{question}</h3>
+                <h3 className="text-lg font-medium m-3 text-amber-300">{question}</h3>
                 <div className="transform transition-transform duration-300">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className={`h-6 w-6 ${isOpen ? 'rotate-180' : ''}`}
+                        className={`h-6 w-6 ${isOpen ? 'rotate-180' : ''} m-3 text-[#C5E1E9]`}
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -28,7 +28,7 @@ const FAQItem = ({ question, answer }) => {
                     </svg>
                 </div>
             </div>
-            {isOpen && <p className="mt-2 text-gray-700">{answer}</p>}
+            {isOpen && <p className="mt-2 text-gray-300 m-3">{answer}</p>}
         </div>
     );
 };

@@ -26,7 +26,7 @@ const WhatsAppButton = () => {
     return (
         <div className={`fixed bottom-5 right-5 z-50 ${isAtFooter ? "small-button" : ""}`}>
             <a href={whatsAppLink.href} target="_blank" rel="noopener noreferrer">
-                <button className="flex items-center bg-green-500 rounded-full px-3 py-2 space-x-2">
+                <button className="flex items-center bg-green-500 hover:bg-green-700 rounded-full px-3 py-2 space-x-2">
                     <img src={whatsAppLink.imgURL} alt="WhatsApp" className="w-6 h-6" />
                     {!isAtFooter && (
                         <span className="text-white font-bold text-sm leading-none font-poppins">Quer ajuda?</span>
