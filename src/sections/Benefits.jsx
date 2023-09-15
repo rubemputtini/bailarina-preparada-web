@@ -12,7 +12,7 @@ const Benefits = () => {
                     <span className='text-[#aaa7cc]'> Clube da Bailarina Preparada </span>
                 </h2>
                 <p className='mt-4 lg:max-w-lg info-text'>
-                    Aprimore sua prática com treinos mensais e aulas especializadas, projetados para enfrentar os desafios do ballet. Junte-se à nossa comunidade, conecte-se com outras bailarinas e encontre apoio para elevar o seu potencial artístico.
+                    Uma plataforma COMPLETA de preparação física para bailarinas, com tudo o que você precisa para conquistar os seus sonhos, sejam eles tornar a dança a sua carreira, dançar sem dores ou simplesmente se sentir feliz e satisfeita com o seu próprio desempenho!
                 </p>
                 <div className='mt-11 font-bold'>
                     <Button label='QUERO SER UMA BAILARINA PREPARADA' />

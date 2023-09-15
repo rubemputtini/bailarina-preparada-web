@@ -7,6 +7,9 @@ import Testimonials from "./Testimonials";
 import Author from "./Author";
 import Footer from "./Footer";
 import Feedbacks from "./Feedbacks";
+import FAQ from "./FAQ";
+import Guarantee from "./Guarantee";
+import WatchAnywhere from "./WatchAnywhere";
 
 export {
     Hero,
@@ -17,5 +20,8 @@ export {
     Testimonials,
     Author,
     Footer,
-    Feedbacks
+    Feedbacks,
+    FAQ,
+    Guarantee,
+    WatchAnywhere
 }

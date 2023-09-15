@@ -1,5 +1,5 @@
 import { facebook, instagram, whatsapp, youtube, telegram } from "../assets/icons";
-import { teste } from "../assets/images";
+import { depoimento2, depoimento3, depoimento4, depoimentoAndreza, depoimentoLeticia, depoimentoManu, depoimentoNath, teste } from "../assets/images";
 
 export const navLinks = [
     { href: "https://clubedabailarinapreparada.club.hotmart.com/login", label: "Área de Membros"}, 
@@ -41,6 +41,16 @@ export const services = [
     },
 ];
 
+export const feedbacks = [
+    { src: depoimento2 },
+    { src: depoimento3 },
+    { src: depoimento4 },
+    { src: depoimentoAndreza },
+    { src: depoimentoLeticia },
+    { src: depoimentoManu },
+    { src: depoimentoNath },
+]
+
 export const reviews = [
     {
         
@@ -80,6 +90,25 @@ export const reviews = [
     },
 ];
 
+
+export const questionsFAQ = [
+    {
+        question: 'Qualquer bailarina pode fazer, mesmo que seja iniciante?',
+        answer: 'Sim! Durante as aulas, a Bella sugere adaptações mais fáceis e mais difíceis para atender a todos os níveis!',
+    },
+    {
+        question: 'Quanto tempo duram as aulas?',
+        answer: 'As aulas duram em média 20 a 30 minutos, para que qualquer pessoa consiga encaixar na rotina! Caso você tenha mais tempo, eu te ajudo a selecionar outra aula para fazer de forma combinada!',
+    },
+    {
+        question: 'É preciso ter algum material?',
+        answer: 'Não é obrigatório, mas recomendado! Durante os treinos utilizamos elástico de 3m, miniband, peso e bola Suíça. Caso não tenha, não há problemas! Temos uma aula de como substituir esses materiais até que você possa investir nos equipamentos 💪',
+    },
+    {
+        question: 'Como funciona o suporte exclusivo para dúvidas?',
+        answer: 'As dúvidas podem ser tiradas através da própria plataforma onde está hospedado o Clube (Hotmart), pelo grupo do WhatsApp das alunas ou em uma conversa privada com a Bella.',
+    },
+];
 
 export const socialMedia = [
     {

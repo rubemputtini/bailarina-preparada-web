@@ -24,4 +24,3 @@ Este projeto ainda está em desenvolvimento e não há uma versão disponível p
 Este projeto é orgulhosamente apresentado por:
 
 **Rubem Puttini**
-Software Developer
