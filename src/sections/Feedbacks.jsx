@@ -6,7 +6,7 @@ const Feedbacks = () => {
     return (
         <div className="slide-container">
             <div className="text-center">
-                <h2 className="font-palanquin text-4xl font-bold mb-4 text-[#C5E1E9]">
+                <h2 className="font-palanquin text-3xl md:text-4xl font-bold mb-8 text-[#C5E1E9]">
                     O nosso objetivo é colecionar histórias como essas:
                 </h2>
             </div>

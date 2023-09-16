@@ -2,9 +2,9 @@ import { isabella } from "../assets/images";
 
 const Author = () => {
     return (
-        <div className="py-12">
+        <div className="">
             <div className="max-w-4xl mx-auto px-4">
-                <div className="bg-white shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center">
+                <div className="bg-white shadow-2xl rounded-lg p-8 flex flex-col md:flex-row items-center">
                     <img
                         src={isabella}
                         alt="Isabella Souza"

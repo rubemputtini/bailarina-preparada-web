@@ -1,5 +1,4 @@
 import Hero from "./Hero";
-import Slider from "./Slider";
 import Benefits from "./Benefits";
 import Services from "./Services";
 import CTA from "./CTA";
@@ -13,7 +12,6 @@ import WatchAnywhere from "./WatchAnywhere";
 
 export {
     Hero,
-    Slider,
     Benefits,
     Services,
     CTA,

@@ -44,16 +44,16 @@ const Hero = () => {
                     Um programa completo para você preparar o seu corpo para evoluir no ballet e executar até mesmo os passos mais difíceis!
                 </p>
                 <Button label="QUERO FAZER PARTE!" />
-                <div className="flex md:flex-row justify-start items-center md:items-start no-wrap w-full mt-5 md:gap-16 text-white">
+                <div className="flex flex-row flex-wrap justify-center items-center text-center w-full mt-5 gap-2 text-white">
                     {statistics.map((stat) => (
-                        <div key={stat.label} className="flex flex-col item-center">
+                        <div key={stat.label} className="flex flex-col m-2">
                             <AnimatedNumber className="text-2xl md:text-4xl" value={parseInt(stat.value)} />
                             <p className="leading-7 font-montserrat text-gray-200">{stat.label}</p>
                         </div>
                     ))}
                 </div>
             </div>
-            <div className="relative flex-1 flex justify-center xl:justify-end items-center xl:min-h-screen max-xl:py-40">
+            <div className="relative flex-1 flex justify-center xl:justify-end items-center xl:min-h-screen mt-10 xl:mt-0">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/S8bMhmAneCo?si=mU-7wV9O0tVydZg6&amp;controls=0" title="Apresentação do Clube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="max-w-full"
                 >
                 </iframe>

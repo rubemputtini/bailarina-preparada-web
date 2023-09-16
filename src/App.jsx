@@ -1,20 +1,17 @@
-import { Author, Benefits, CTA, FAQ, Feedbacks, Footer, Guarantee, Hero, Services, Slider, Testimonials, WatchAnywhere } from "./sections";
+import { Author, Benefits, CTA, FAQ, Feedbacks, Footer, Guarantee, Hero, Services, Testimonials, WatchAnywhere } from "./sections";
 import Nav from "./components/Nav";
 import WhatsAppButton from "./components/WhatsAppButton";
 
 const App = () => (
-  <main className="relative  bg-[#302539]">
+  <main className="bg-[#302539]">
     <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b">
+    <section className="xl:padding-l wide:padding-r">
       <Hero />
-    </section>
-    <section className="padding">
-      <Slider />
     </section>
     <section className="padding">
       <Benefits />
     </section>
-    <section className="padding-x py-10">
+    <section className="padding">
       <Services />
     </section>
     <section className="padding">
@@ -32,13 +29,15 @@ const App = () => (
     <section className="padding">
       <Feedbacks />
     </section>
-    <section className="padding-x sm:py-32 py-16 w-full">
+    <section className="padding">
       <Author />
     </section>
     <section className="padding">
       <FAQ />
     </section>
-    <Footer />
+    <section className="padding-x">
+      <Footer />
+    </section>
     <WhatsAppButton />
   </main>
 );
