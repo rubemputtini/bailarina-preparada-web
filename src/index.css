@@ -80,3 +80,18 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.red__gradient {
+  background: linear-gradient(90deg, hsl(345, 72%, 64%) 0%, #d81143 100%);
+  filter: blur(900px);
+}
+
+.blue__gradient {
+  background: linear-gradient(90deg, hsl(184, 75%, 62%) 0%, #064087 100%);
+  filter: blur(900px);
+}
