@@ -7,12 +7,12 @@ const Benefits = () => {
             className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
         >
             <div className='flex flex-1 flex-col'>
-                <h2 className='font-palanquin text-3xl md:text-4xl lg:max-w-lg font-bold text-[#C5E1E9]'>
-                    O que voce vai encontrar no
+                <h2 className='font-lato text-3xl md:text-4xl lg:max-w-lg font-bold text-[#C5E1E9]'>
+                    O que você vai encontrar no
                     <span className='text-[#A6BDCE]'> Clube da Bailarina Preparada </span>
                 </h2>
                 <p className='mt-4 lg:max-w-lg info-text'>
-                    Uma plataforma COMPLETA de preparação física para bailarinas, com tudo o que você precisa para conquistar os seus sonhos, sejam eles tornar a dança a sua carreira, dançar sem dores ou simplesmente se sentir feliz e satisfeita com o seu próprio desempenho!
+                    Os <b>melhores treinos </b>de condicionamento físico para bailarinas: desenvolva sua FORÇA, sua FLEXIBILIDADE, seu EQUILÍBRIO e todas as capacidades físicas necessárias para a sua evolução no ballet!
                 </p>
                 <div className='mt-11'>
                     <Button label='QUERO SER UMA BAILARINA PREPARADA' />

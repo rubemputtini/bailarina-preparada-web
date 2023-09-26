@@ -22,7 +22,7 @@ const Nav = () => {
                 <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                     <li>
                         <a href={memberAreaLink}
-                            className="font-montserrat leading-normal text-lg text-[#aaa7cc]">{navLinks[0].label}</a>
+                            className="font-montserrat leading-normal text-lg text-[#dddaf6]">{navLinks[0].label}</a>
                     </li>
                 </ul>
 
@@ -36,12 +36,12 @@ const Nav = () => {
                         />
                         <div
                             className={`${toggle ? "flex" : "hidden"
-                                } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-50`}
+                                } p-6 bg-purple-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-50`}
                         >
                             <ul className="list-none flex flex-col justify-end items-center flex-1">
                                 <li>
                                     <a href={memberAreaLink}
-                                        className="font-montserrat leading-normal text-lg text-[#aaa7cc]">{navLinks[0].label}</a>
+                                        className="font-montserrat leading-normal text-lg text-[#dddaf6]">{navLinks[0].label}</a>
                                 </li>
                             </ul>
                         </div>

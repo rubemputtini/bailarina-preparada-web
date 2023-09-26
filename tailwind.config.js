@@ -12,7 +12,7 @@ export default {
       lg: ['18px', '21.94px'],
       xl: ['20px', '24.38px'],
       '2xl': ['24px', '29.26px'],
-      '3xl': ['28px', '50px'],
+      '3xl': ['36px', '54px'],
       '4xl': ['48px', '58px'],
       '5xl': ['58px', '68px'],
       '6xl': ['70px', '80px'],
@@ -23,6 +23,9 @@ export default {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
         poppins: ["Poppins", "sans-serif"],
+        lato: ['Lato', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        noto: ['Noto Sans', 'sans-serif']
       },
       colors: {
         'primary': "#ECEEFF",

@@ -10,7 +10,7 @@ const FAQItem = ({ question, answer }) => {
     return (
         <div className="border-b border-[#C5E1E9] py-4 mb-3">
             <div className="flex justify-between items-center cursor-pointer" onClick={toggleAnswer}>
-                <h3 className="text-lg font-medium m-3 text-amber-300">{question}</h3>
+                <h3 className="text-lg font-medium m-3 text-amber-200">{question}</h3>
                 <div className="transform transition-transform duration-300">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const FAQItem = ({ question, answer }) => {
                     </svg>
                 </div>
             </div>
-            {isOpen && <p className="mt-2 text-gray-300 m-3">{answer}</p>}
+            {isOpen && <p className="mt-2 text-gray-100 m-3">{answer}</p>}
         </div>
     );
 };

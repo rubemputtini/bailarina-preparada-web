@@ -23,9 +23,9 @@ const Hero = () => {
         <section className="w-full flex flex-col xl:flex-row justify-center min-h-screen items-center md:items-stretch">
             <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
                 <p className="mt-6 md:mt-8 font-montserrat text-[#c5e1e9] text-xs md:text-base font-semibold italic">O maior clube de preparação física para bailarinas do Brasil 💙</p>
-                <h1 className="mt-8 font-palanquin text-3xl md:text-4xl max-sm:leading-30 font-bold text-gray-200">
+                <h1 className="mt-8 text-3xl md:text-4xl max-sm:leading-30 font-bold text-gray-200">
                     <span
-                        className="xl:whitespace-nowrap relative z-10 pr-10"
+                        className="xl:whitespace-nowrap relative pr-10 font-lato"
                     >
                         Seja uma bailarina{' '}
                         <Typed
@@ -41,7 +41,7 @@ const Hero = () => {
                     </span>
                 </h1>
                 <p className="font-montserrat text-white text-sm md:text-lg leading-6 md:leading-8 mb-6 sm:max-w-sm">
-                    Um programa completo para você preparar o seu corpo para evoluir no ballet e executar até mesmo os passos mais difíceis!
+                    Torne-se a bailarina que sempre sonhou com a ajuda da preparação física!
                 </p>
                 <Button label="QUERO FAZER PARTE!" />
                 <div className="flex flex-row flex-wrap justify-center items-center text-center w-full mt-5 gap-2 text-white">
@@ -54,7 +54,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="relative flex-1 flex justify-center xl:justify-end items-center xl:min-h-screen mt-10 xl:mt-0">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/S8bMhmAneCo?si=mU-7wV9O0tVydZg6&amp;controls=0" title="Apresentação do Clube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="max-w-full"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ABsLsyHNofA?si=_5i2ZABapw7mlK3o&amp;controls=0" title="Apresentação do Clube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="max-w-full"
                 >
                 </iframe>
             </div>

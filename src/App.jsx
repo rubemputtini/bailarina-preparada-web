@@ -4,20 +4,20 @@ import WhatsAppButton from "./components/WhatsAppButton";
 
 const App = () => (
   <main className="relative bg-[#302539]">
-    <div className="absolute z-[3] -right-1/2 top-0 w-[40%] h-[20%] rounded-full red__gradient" />
+    <div className="absolute z-auto right-0 top-0 w-1/4 h-1/5 rounded-full red__gradient" />
     <Nav />
     <section className="xl:padding-l wide:padding-r">
       <Hero />
     </section>
     <section className="padding">
-      <div className="absolute z-[3] -left-1/2 bottom-0 w-[40%] h-[30%] rounded-full red__gradient" />
+      <div className="absolute z-auto -left-1/2 bottom-0 w-1/2 h-1/3 rounded-full red__gradient" />
       <Benefits />
     </section>
     <section className="padding">
       <Services />
     </section>
     <section className="padding">
-      <div className="absolute z-[3] inset-1/3 w-[15%] h-[15%] white__gradient" />
+      <div className="absolute z-auto inset-1/3 w-1/6 h-1/6 white__gradient" />
       <CTA />
     </section>
     <section className="padding">

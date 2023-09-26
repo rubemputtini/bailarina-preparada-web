@@ -8,9 +8,9 @@ export const navLinks = [
 ];
 
 export const statistics = [
-    { value: '350', label: 'Bailarinas Preparadas' },
-    { value: '12', label: 'Módulos de Conteúdo' },
-    { value: '70', label: 'Treinos Gravados' },
+    { value: '431', label: 'Bailarinas Preparadas' },
+    { value: '19', label: 'Módulos de Conteúdo' },
+    { value: '130', label: 'Treinos Gravados' },
 ];
 
 
@@ -132,3 +132,10 @@ export const socialMedia = [
       link: "https://t.me/+OIEsb8rayHg2YzI0",
     },
   ];
+
+  export const pages = [
+    {
+        id: "privacidade",
+        link: "https://bailarinapreparada.com.br/politica-de-privacidade",
+    },
+  ]

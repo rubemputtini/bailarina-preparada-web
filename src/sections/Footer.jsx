@@ -1,31 +1,22 @@
-import { headerLogo } from '../assets/images';
-import { socialMedia } from '../constants';
+import { footerLogo } from '../assets/images';
+import { pages, socialMedia } from '../constants';
 
 const Footer = () => {
     return (
         <footer className="w-full mx-auto">
             <div className="text-center mb-6 md:text-left md:flex md:items-center md:justify-between">
                 <div className="block mb-2">
-                    <img src={headerLogo} className="h-10 mx-auto md:mx-0" alt="Bailarina Preparada Logo" />
+                    <img src={footerLogo} className="h-10 mx-auto md:mx-0" alt="Bailarina Preparada Logo" />
                 </div>
                 <ul className="flex justify-center md:justify-start space-x-4 md:ml-4 text-white">
                     <li>
-                        <a href="https://flowbite.com/about" className="mr-4 hover:underline md:mr-6">About</a>
-                    </li>
-                    <li>
-                        <a href="https://flowbite.com/privacy-policy" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="https://flowbite.com/licensing" className="mr-4 hover:underline md:mr-6">Licensing</a>
-                    </li>
-                    <li>
-                        <a href="https://flowbite.com/contact" className="hover:underline">Contact</a>
+                        <a href={pages[0].link} className="mr-4 hover:underline md:mr-6">Política de Privacidade</a>
                     </li>
                 </ul>
             </div>
             <hr className="my-6 border-white sm:mx-auto lg:my-8" />
             <div className="flex flex-col-reverse md:flex-row items-center justify-between">
-                <span className="block text-sm text-white text-center mb-8 mt-4 font-semibold font-mono">
+                <span className="block text-sm text-white text-center mb-8 mt-4 font-semibold font-noto">
                     Bailarina Preparada © 2023. Todos os direitos reservados.
                 </span>
                 <div className="flex flex-row">

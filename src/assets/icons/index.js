@@ -6,6 +6,15 @@ import whatsapp from './whatsapp.png'
 import youtube from './youtube.svg'
 import close from './close.svg'
 import menu from './menu.svg'
+import aulas from './aulas.png'
+import avaliacoes from './avaliacoes.png'
+import bonus from './bonus.png'
+import especificos from './especificos.png'
+import globais from './globais.png'
+import plano from './plano.png'
+import professores from './professores.png'
+import suporte from './suporte.png'
+import outros from './outros.png'
 
 export {
     facebook,
@@ -15,5 +24,14 @@ export {
     whatsapp,
     youtube,
     close,
-    menu
+    menu,
+    aulas,
+    avaliacoes,
+    bonus,
+    especificos,
+    globais,
+    plano,
+    professores,
+    suporte,
+    outros
 }
