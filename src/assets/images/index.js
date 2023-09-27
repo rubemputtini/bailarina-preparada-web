@@ -3,8 +3,6 @@ import bailarina from './bailarina.png'
 import footerLogo from './footer-logo.png'
 import headerLogo from './header-logo.png'
 
-import teste from './teste.png'
-
 import isabella from './Isabella.png'
 
 import depoimento2 from './depoimento-2.jpeg'
@@ -18,11 +16,17 @@ import depoimentoNath from './depoimento-nath.jpeg'
 import garantia from './garantia.png'
 import membros from './membros.png'
 
+import cardio from './cardio.png'
+import core from './core.png'
+import endehors from './endehors.png'
+import flexibilidade from './flexibilidade.png'
+import forca from './forca.png'
+import pes from './pes.png'
+
 export {
     bailarina,
     footerLogo,
     headerLogo,
-    teste,
     isabella,
     depoimento2,
     depoimento3,
@@ -33,4 +37,10 @@ export {
     depoimentoNath,
     garantia,
     membros,
+    cardio,
+    core,
+    endehors,
+    flexibilidade,
+    forca,
+    pes,
 }

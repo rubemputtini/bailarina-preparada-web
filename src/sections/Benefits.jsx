@@ -15,7 +15,7 @@ const Benefits = () => {
                     Os <b>melhores treinos </b>de condicionamento físico para bailarinas: desenvolva sua FORÇA, sua FLEXIBILIDADE, seu EQUILÍBRIO e todas as capacidades físicas necessárias para a sua evolução no ballet!
                 </p>
                 <div className='mt-11'>
-                    <Button label='QUERO SER UMA BAILARINA PREPARADA' />
+                    <Button label='QUERO COMEÇAR AGORA' />
                 </div>
             </div>
             <div className='flex-1 flex justify-center items-center'>

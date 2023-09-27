@@ -1,10 +1,10 @@
 import { facebook, instagram, whatsapp, youtube, telegram } from "../assets/icons";
-import { depoimento2, depoimento3, depoimento4, depoimentoAndreza, depoimentoLeticia, depoimentoManu, depoimentoNath, teste } from "../assets/images";
+import { depoimento2, depoimento3, depoimento4, depoimentoAndreza, depoimentoLeticia, depoimentoManu, depoimentoNath, cardio, flexibilidade, core, forca, pes, endehors } from "../assets/images";
 
 export const navLinks = [
-    { href: "https://clubedabailarinapreparada.club.hotmart.com/login", label: "Área de Membros"}, 
+    { href: "https://hotmart.com/pt-br/club/clube-bailarina-preparada", label: "Área do Aluno"}, 
     { href: "https://wa.me/5561996256658", label: "Está com dúvida?", imgURL: whatsapp},
-    { href: "https://pay.hotmart.com/R46545109G?off=tvul0ly3&bid=1687413655046", label: "Hotmart"},
+    { href: "https://pay.hotmart.com/R46545109G?off=tvul0ly3", label: "Hotmart"},
 ];
 
 export const statistics = [
@@ -16,28 +16,28 @@ export const statistics = [
 
 export const services = [
     {
-        imgURL: teste,
+        imgURL: cardio,
         label: "CARDIO",
     },
     {
-        imgURL: teste,
+        imgURL: flexibilidade,
         label: "FLEXIBILIDADE",
     },
     {
-        imgURL: teste,
+        imgURL: forca,
         label: "FORÇA",
     },
     {
-        imgURL: teste,
-        label: "POTENCIA",
+        imgURL: pes,
+        label: "PÉS",
     },
     {
-        imgURL: teste,
-        label: "TECNICA",
-    },
-    {
-        imgURL: teste,
+        imgURL: core,
         label: "CORE",
+    },
+    {
+        imgURL: endehors,
+        label: "ENDEHORS",
     },
 ];
 
@@ -98,11 +98,11 @@ export const questionsFAQ = [
     },
     {
         question: 'Quanto tempo duram as aulas?',
-        answer: 'As aulas duram em média 20 a 30 minutos, para que qualquer pessoa consiga encaixar na rotina! Caso você tenha mais tempo, eu te ajudo a selecionar outra aula para fazer de forma combinada!',
+        answer: 'As aulas duram em média 20 a 30 minutos, para que qualquer pessoa consiga encaixar na rotina! Caso você tenha mais tempo, a Bella ajuda a selecionar outra aula para fazer de forma combinada!',
     },
     {
         question: 'É preciso ter algum material?',
-        answer: 'Não é obrigatório, mas recomendado! Durante os treinos utilizamos elástico de 3m, miniband, peso e bola Suíça. Caso não tenha, não há problemas! Temos uma aula de como substituir esses materiais até que você possa investir nos equipamentos 💪',
+        answer: 'Não é obrigatório, mas recomendado! Durante os treinos utilizamos elástico de 3 metros, miniband, peso e bola suíça. Caso não tenha, não há problemas! Temos uma aula de como substituir esses materiais até que você possa investir nos equipamentos 💪',
     },
     {
         question: 'Como funciona o suporte exclusivo para dúvidas?',

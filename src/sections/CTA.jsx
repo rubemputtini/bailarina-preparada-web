@@ -14,7 +14,7 @@ const CTA = () => {
                             <span className="absolute -top-4 transform -translate-x-1/2" />
                             12x de&nbsp;
                         </span>
-                        <span className="mb-2 text-5xl font-extrabold font-noto text-[#8AE5EF]">
+                        <span className="mb-2 text-3xl sm:text-5xl font-extrabold font-noto text-[#8AE5EF]">
                             R$ 99,50
                         </span>
                     </div>
@@ -38,7 +38,7 @@ const CTA = () => {
                             <img src={especificos} />
                         </div>
                         <h3 className="mb-2 font-bold text-white">TREINOS ESPECÍFICOS</h3>
-                        <p className="text-white-400">Novos treinos adicionados a plataforma mensalmente.</p>
+                        <p className="text-white-400">Treinos para todos os movimentos do Ballet.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">

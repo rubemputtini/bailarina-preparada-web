@@ -9,21 +9,21 @@ const App = () => (
     <section className="xl:padding-l wide:padding-r">
       <Hero />
     </section>
-    <section className="padding">
+    <section className="padding-x padding-t">
       <div className="absolute z-auto -left-1/2 bottom-0 w-1/2 h-1/3 rounded-full red__gradient" />
       <Benefits />
     </section>
-    <section className="padding">
+    <section className="padding-x padding-b">
       <Services />
     </section>
-    <section className="padding">
+    <section className="padding-x padding-t">
       <div className="absolute z-auto inset-1/3 w-1/6 h-1/6 white__gradient" />
       <CTA />
     </section>
-    <section className="padding">
+    <section className="padding-x padding-t">
       <WatchAnywhere />
     </section>
-    <section className="padding">
+    <section className="padding-x">
       <Guarantee />
     </section>
     <section className="padding">

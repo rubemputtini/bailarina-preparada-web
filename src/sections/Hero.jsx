@@ -54,7 +54,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="relative flex-1 flex justify-center xl:justify-end items-center xl:min-h-screen mt-10 xl:mt-0">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ABsLsyHNofA?si=_5i2ZABapw7mlK3o&amp;controls=0" title="Apresentação do Clube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="max-w-full"
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/ABsLsyHNofA?si=_5i2ZABapw7mlK3o&amp;controls=0" title="Apresentação do Clube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="max-w-full" loading="lazy"
                 >
                 </iframe>
             </div>

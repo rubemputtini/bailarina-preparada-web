@@ -10,7 +10,7 @@ const Footer = () => {
                 </div>
                 <ul className="flex justify-center md:justify-start space-x-4 md:ml-4 text-white">
                     <li>
-                        <a href={pages[0].link} className="mr-4 hover:underline md:mr-6">Política de Privacidade</a>
+                        <a href={pages[0].link} rel='noreferrer' target='_blank' key={pages[0].id} className="mr-4 hover:underline md:mr-6">Política de Privacidade</a>
                     </li>
                 </ul>
             </div>
