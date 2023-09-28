@@ -17,7 +17,11 @@ O objetivo deste projeto é proporcionar uma experiência única para bailarinas
 
 ## Como Acessar
 
-Este projeto ainda está em desenvolvimento e não há uma versão disponível para acesso público. No entanto, caso você tenha interesse em contribuir com o desenvolvimento ou saber mais sobre o projeto, sinta-se livre para entrar em contato comigo através do email: rubem.staciariniputtini@gmail.com
+O site está disponível publicamente em https://www.bailarinapreparada.com.br. Basta acessar o link no seu navegador para visualizar o conteúdo do site.
+
+Caso encontre algum problema ao acessar o site, verifique sua conexão com a internet e tente novamente. Se o problema persistir, entre em contato comigo para que eu possa ajudar.
+
+Além disso, é importante ressaltar que o conteúdo do site é de propriedade intelectual do autor, portanto, não é permitida a reprodução ou distribuição do conteúdo sem a autorização prévia do mesmo.
 
 ## Autor
 
