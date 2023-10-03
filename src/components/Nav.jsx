@@ -14,7 +14,7 @@ const Nav = () => {
                 <a href="/">
                     <img
                         src={headerLogo}
-                        alt="Logo"
+                        alt="Bailarina Preparada Logo"
                         width={130}
                         height={29}
                     />

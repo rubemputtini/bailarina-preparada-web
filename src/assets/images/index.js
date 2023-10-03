@@ -1,27 +1,27 @@
-import bailarina from './bailarina.png'
+import bailarina from './bailarina.webp'
 
-import footerLogo from './footer-logo.png'
-import headerLogo from './header-logo.png'
+import footerLogo from './footer-logo.webp'
+import headerLogo from './header-logo.webp'
 
-import isabella from './Isabella.png'
+import isabella from './Isabella.webp'
 
-import depoimento2 from './depoimento-2.jpeg'
-import depoimento3 from './depoimento-3.jpg'
-import depoimento4 from './depoimento-4.jpeg'
-import depoimentoAndreza from './depoimento-andreza.png'
-import depoimentoLeticia from './depoimento-leticia.jpeg'
-import depoimentoManu from './depoimento-manu.png'
-import depoimentoNath from './depoimento-nath.jpeg'
+import depoimento2 from './depoimento-2.webp'
+import depoimento3 from './depoimento-3.webp'
+import depoimento4 from './depoimento-4.webp'
+import depoimentoAndreza from './depoimento-andreza.webp'
+import depoimentoLeticia from './depoimento-leticia.webp'
+import depoimentoManu from './depoimento-manu.webp'
+import depoimentoNath from './depoimento-nath.webp'
 
-import garantia from './garantia.png'
-import membros from './membros.png'
+import garantia from './garantia.webp'
+import membros from './membros.webp'
 
-import cardio from './cardio.png'
-import core from './core.png'
-import endehors from './endehors.png'
-import flexibilidade from './flexibilidade.png'
-import forca from './forca.png'
-import pes from './pes.png'
+import cardio from './cardio.webp'
+import core from './core.webp'
+import endehors from './endehors.webp'
+import flexibilidade from './flexibilidade.webp'
+import forca from './forca.webp'
+import pes from './pes.webp'
 
 export {
     bailarina,

@@ -28,49 +28,49 @@ const CTA = () => {
                 <div className="lg:ml-8 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:space-y-0">
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
-                            <img src={globais} />
+                            <img src={globais} alt="Ícone de Treinos Globais" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">TREINOS GLOBAIS</h3>
                         <p className="text-white-400">Treinos de Força, Flexibilidade e Cardio atualizados todos os meses.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
-                            <img src={especificos} />
+                            <img src={especificos} alt="Ícone de Treinos Específicos" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">TREINOS ESPECÍFICOS</h3>
                         <p className="text-white-400">Treinos para todos os movimentos do Ballet.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
-                            <img src={aulas} />
+                            <img src={aulas} alt="Ícone de Aulas Ao Vivo" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">AULAS AO VIVO</h3>
                         <p className="text-white-400">Aulas semanais em grupo de PBT e SOLO.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
-                            <img src={suporte} />
+                            <img src={suporte} alt="Ícone de Suporte Exclusivo" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">SUPORTE EXCLUSIVO</h3>
                         <p className="text-white-400">Acesso ao grupo de alunas para tirar dúvidas.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
-                            <img src={plano} />
+                            <img src={plano} alt="Ícone de Planos de Rotina" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">PLANO DE ROTINA</h3>
                         <p className="text-white-400">Um planejamento personalizado para as suas necessidades.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
-                            <img src={avaliacoes} />
+                            <img src={avaliacoes} alt="Ícone de Avaliações Físicas" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">AVALIAÇÕES FÍSICAS</h3>
                         <p className="text-white-400">2 avaliações físicas individuais por ano para monitorar seu progresso.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
-                            <img src={professores} />
+                            <img src={professores} alt="Ícone de Professores Convidados" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">PROFESSORES CONVIDADOS</h3>
                         <p className="text-white-400">Aulas de Pilates, Yoga, Bioginástica, Flow e outras modalidades.</p>
@@ -78,7 +78,7 @@ const CTA = () => {
 
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
-                            <img src={bonus} />
+                            <img src={bonus} alt="Ícone de Bônus" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">BÔNUS</h3>
                         <p className="text-white-400">- Mini-curso de técnica com Fernanda Ruschel</p>
@@ -86,7 +86,7 @@ const CTA = () => {
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
-                            <img src={outros} />
+                            <img src={outros} alt="Ícone de E Muito Mais" />
                         </div>
                         <h3 className="mb-2 font-bold text-white">E MUITO MAIS...</h3>
                     </div>
