@@ -21,10 +21,10 @@ const TestimonialsCard = () => {
                             <iframe
                                 title={`${testimonial.customerName}'s Testimonial`}
                                 width="100%"
-                                height="315"
+                                height="auto"
+                                className="md:h-[360px]"
                                 src={testimonial.youtubeVideo}
                                 allowFullScreen
-                                style={{ maxWidth: '100%' }}
                             ></iframe>
                         </div>
                         <div className="md:w-1/2 mt-3 md:mt-0">

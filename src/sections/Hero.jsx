@@ -43,7 +43,20 @@ const Hero = () => {
                 <p className="font-montserrat text-white text-sm md:text-lg leading-6 md:leading-8 mb-6 sm:max-w-sm">
                     Torne-se a bailarina que sempre sonhou com a ajuda da preparação física!
                 </p>
-                <Button label="QUERO FAZER PARTE!" />
+                <iframe
+                    width="100%"
+                    height="auto"
+                    src="https://www.youtube.com/embed/ABsLsyHNofA?si=yLL93PwvNKvjTsVy"
+                    title="Apresentação do Clube"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="max-w-full md:hidden mb-8 w-full mx-auto"
+                    loading="lazy"
+                >
+                </iframe>
+                <div className="flex justify-center">
+                    <Button label="QUERO FAZER PARTE!" />
+                </div>
                 <div className="flex flex-row flex-wrap justify-center items-center text-center w-full mt-5 gap-2 text-white">
                     {statistics.map((stat) => (
                         <div key={stat.label} className="flex flex-col m-2">
@@ -54,7 +67,15 @@ const Hero = () => {
                 </div>
             </div>
             <div className="relative flex-1 flex justify-center xl:justify-end items-center xl:min-h-screen mt-10 xl:mt-0">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/ABsLsyHNofA?si=yLL93PwvNKvjTsVy" title="Apresentação do Clube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="max-w-full" loading="lazy"
+                <iframe
+                    width="640"
+                    height="360"
+                    src="https://www.youtube.com/embed/ABsLsyHNofA?si=yLL93PwvNKvjTsVy"
+                    title="Apresentação do Clube"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="max-w-full hidden md:block"
+                    loading="lazy"
                 >
                 </iframe>
             </div>

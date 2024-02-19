@@ -82,7 +82,6 @@ const CTA = () => {
                         </div>
                         <h3 className="mb-2 font-bold text-white">BÔNUS</h3>
                         <p className="text-white-400">- Mini-curso de técnica com Fernanda Ruschel</p>
-                        <p className="text-white-400">- Curso Definitivamente Flexível na íntegra.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
