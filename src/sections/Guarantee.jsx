@@ -8,12 +8,12 @@ const Guarantee = () => {
                     <img
                         src={garantia}
                         alt="Garantia de Satisfação"
-                        className="max-w-xs mx-auto"
+                        className="max-w-xs mx-auto mb-10 md:mb-0"
                     />
                 </div>
                 <div className="flex items-center">
                     <p className="info-text">
-                        Confiamos na qualidade do nosso serviço. É por isso que oferecemos uma garantia de satisfação de 14 dias. Se, por qualquer que seja o motivo, você não estiver satisfeita com o Clube, pode solicitar o cancelamento da sua assinatura e <b> receberá 100% do valor de volta.</b>
+                        Confiamos na qualidade do nosso serviço. É por isso que oferecemos uma garantia de satisfação de 7 dias. Se, por qualquer que seja o motivo, você não estiver satisfeita com o Clube, pode solicitar o cancelamento da sua assinatura e <b> receberá 100% do valor de volta.</b>
                     </p>
                 </div>
             </div>
