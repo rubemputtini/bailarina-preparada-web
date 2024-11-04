@@ -65,8 +65,8 @@ const CTA = () => {
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 bg-primary-900">
                             <img src={avaliacoes} alt="Ícone de Avaliações Físicas" />
                         </div>
-                        <h3 className="mb-2 font-bold text-white">AVALIAÇÕES FÍSICAS</h3>
-                        <p className="text-white-400">2 avaliações físicas individuais por ano para monitorar seu progresso.</p>
+                        <h3 className="mb-2 font-bold text-white">AVALIAÇÃO FÍSICA</h3>
+                        <p className="text-white-400">1 avaliação física individual por ano para monitorar seu progresso.</p>
                     </div>
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
