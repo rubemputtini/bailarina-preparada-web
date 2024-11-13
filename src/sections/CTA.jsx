@@ -3,32 +3,29 @@ import { navLinks } from "../constants";
 
 const CTA = () => {
     return (
-        <section className="shadow-2xl">
-            <div className="flex flex-col xl:flex-row place-items-center p-6 md:p-10 mx-auto max-w-screen-xl">
-                <div className="max-w-screen-md mb-8 lg:mb-16 xl:w-2/5">
-                    <div className="mb-8 lg:mb-16 text-center xl:text-left">
-                        <h2 className="text-3xl md:text-5xl tracking-tight font-extrabold text-white font-lato italic">
-                            Aproveite a BLACK WEEK:
-                        </h2>
+        <section className="bg-[#504359] shadow-2xl">
+            <div className="flex flex-col xl:flex-row place-items-center p-10 mx-auto max-w-screen-xl">
+                <div className="max-w-screen-md mb-8 lg:mb-16">
+                    <div className="mb-8 lg:mb-16">
+                        <h2 className="text-3xl md:text-4xl tracking-tight font-extrabold text-white font-lato italic">Seja uma Bailarina Preparada por apenas:</h2>
                     </div>
-                    <div className="w-full max-w-xs mx-auto flex flex-col items-center">
-                        <div className="w-full border-4 border-orange-500 rounded-lg overflow-hidden shadow-lg">
-                            <div className="bg-gradient-to-r from-yellow-500 to-orange-500 text-black text-xl font-bold px-4 py-2 text-center">
-                                R$ 300,00 OFF
-                            </div>
-                            <div className="flex flex-col items-center px-8 py-6">
-                                <span className="text-white text-lg md:text-xl italic mb-1">Preço exclusivo:</span>
-                                <span className="text-2xl md:text-3xl font-extrabold text-[#8AE5EF]">R$ 69,65/mês</span>
-                                <p className="text-gray-200 mb-6 mt-2 text-center">ou R$ 697,90/ano</p>
-                                <a href={navLinks[2].href} className="bg-gradient-to-r from-green-500 to-green-700 text-white text-lg md:text-2xl px-3 py-2 md:px-4 md:py-3 rounded-2xl font-bold hover:opacity-90 transition-opacity text-center"
-                                >
-                                    COMECE AGORA
-                                </a>
-                            </div>
-                        </div>
+                    <div className="flex justify-center items-center">
+                        <span className="text-white text-xl italic relative">
+                            <span className="absolute -top-4 transform -translate-x-1/2" />
+                            12x de&nbsp;
+                        </span>
+                        <span className="mb-2 text-3xl sm:text-5xl font-extrabold font-noto text-[#8AE5EF]">
+                            R$ 99,50
+                        </span>
+                    </div>
+                    <p className="text-gray-200 mb-6 text-xl text-center">ou R$ 997,00/ano</p>
+                    <div className="flex justify-center items-center">
+                        <a className="bg-gradient-to-r from-green-500 to-green-700 text-white text-2xl px-4 py-2 md:py-3 rounded-2xl font-bold hover:opacity-90 transition-opacity mt-6 font-noto" href={navLinks[2].href}>
+                            COMECE AGORA
+                        </a>
                     </div>
                 </div>
-                <div className="lg:ml-8 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:space-y-0 xl:w-3/5">
+                <div className="lg:ml-8 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:space-y-0">
                     <div>
                         <div className="flex justify-center items-center mb-2 w-10 h-10 rounded-full bg-primary-900 lg:h-12 lg:w-12">
                             <img src={globais} alt="Ícone de Treinos Globais" />

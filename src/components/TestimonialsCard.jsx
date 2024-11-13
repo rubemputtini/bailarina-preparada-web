@@ -15,7 +15,7 @@ const TestimonialsCard = () => {
     return (
         <Slider {...settings}>
             {reviews.map((testimonial, index) => (
-                <div key={index} className="p-4 testimonials-bg">
+                <div key={index} className="p-4">
                     <div className="bg-white rounded-lg p-6 shadow-md flex flex-col md:flex-row md:items-center">
                         <div className="mb-4 md:w-1/2 md:mb-0 md:mr-6">
                             <iframe
