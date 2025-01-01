@@ -15,10 +15,10 @@ const CTA = () => {
                             12x de&nbsp;
                         </span>
                         <span className="mb-2 text-3xl sm:text-5xl font-extrabold font-noto text-[#8AE5EF]">
-                            R$ 99,50
+                            R$ 109,48
                         </span>
                     </div>
-                    <p className="text-gray-200 mb-6 text-xl text-center">ou R$ 997,00/ano</p>
+                    <p className="text-gray-200 mb-6 text-xl text-center">ou R$ 1.097,00/ano</p>
                     <div className="flex justify-center items-center">
                         <a className="bg-gradient-to-r from-green-500 to-green-700 text-white text-2xl px-4 py-2 md:py-3 rounded-2xl font-bold hover:opacity-90 transition-opacity mt-6 font-noto" href={navLinks[2].href}>
                             COMECE AGORA
