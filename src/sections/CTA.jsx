@@ -1,17 +1,13 @@
 import { aulas, avaliacoes, bonus, especificos, globais, outros, plano, professores, suporte } from "../assets/icons";
-import BonusTimer from "../components/BonusTimer";
 import { navLinks } from "../constants";
 
 const CTA = () => {
     return (
         <section className="bg-[#504359] shadow-2xl">
-            <div className="flex flex-col lg:flex-row justify-between gap-10 p-10 mx-auto max-w-screen-xl">
-
-                <div className="w-full lg:max-w-md flex flex-col justify-start">
-                    <div className="mb-8 lg:mb-12">
-                        <h2 className="text-3xl md:text-4xl tracking-tight font-extrabold text-white font-lato italic">
-                            Seja uma Bailarina Preparada por apenas:
-                        </h2>
+            <div className="flex flex-col xl:flex-row place-items-center p-10 mx-auto max-w-screen-xl">
+                <div className="max-w-screen-md mb-8 lg:mb-16">
+                    <div className="mb-8 lg:mb-16">
+                        <h2 className="text-3xl md:text-4xl tracking-tight font-extrabold text-white font-lato italic">Seja uma Bailarina Preparada por apenas:</h2>
                     </div>
 
                     <div className="flex justify-center items-center">
@@ -33,10 +29,6 @@ const CTA = () => {
                         >
                             COMECE AGORA
                         </a>
-                    </div>
-
-                    <div className="mt-8">
-                        <BonusTimer />
                     </div>
                 </div>
 
