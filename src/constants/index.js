@@ -4,7 +4,7 @@ import { depoimento2, depoimento3, depoimento4, depoimentoAndreza, depoimentoLet
 export const navLinks = [
     { href: "https://hotmart.com/pt-br/club/clube-bailarina-preparada", label: "Área do Aluno"}, 
     { href: "https://wa.me/351914793862", label: "Está com dúvida?", imgURL: whatsapp},
-    { href: "https://pay.hotmart.com/R46545109G", label: "Hotmart"},
+    { href: "https://pay.hotmart.com/R46545109G?off=tnqkr0ch&bid=1744010490104", label: "Hotmart"},
 ];
 
 export const statistics = [
