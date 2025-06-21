@@ -3,7 +3,7 @@ import { navLinks } from "../constants";
 
 const CTA = () => {
     return (
-        <section className="bg-[#504359] shadow-2xl">
+        <section id="cta" className="bg-[#504359] shadow-2xl">
             <div className="flex flex-col xl:flex-row place-items-center p-10 mx-auto max-w-screen-xl">
                 <div className="max-w-screen-md mb-8 lg:mb-16">
                     <div className="mb-8 lg:mb-16">
