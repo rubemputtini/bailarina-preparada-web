@@ -12,6 +12,7 @@ const Author = () => {
                     <img
                         src={isabella}
                         alt="Isabella Souza"
+                        width={1080} height={1080}
                         className="w-full h-auto md:w-64 md:h-64 mx-auto md:mx-0 md:mr-8 rounded-full border-4 border-purple-500 mb-4 md:mb-0"
                         loading="lazy"
                     />

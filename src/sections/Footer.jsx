@@ -6,7 +6,14 @@ const Footer = () => {
         <footer className="w-full mx-auto">
             <div className="text-center mb-6 md:text-left md:flex md:items-center md:justify-between">
                 <div className="block mb-2">
-                    <img src={footerLogo} className="h-10 mx-auto md:mx-0" alt="Bailarina Preparada Logo" loading="lazy" />
+                    <img
+                        src={footerLogo}
+                        alt="Bailarina Preparada Logo"
+                        width="111"
+                        height="40"
+                        className="h-10 mx-auto md:mx-0"
+                        loading="lazy"
+                    />
                 </div>
                 <ul className="flex justify-center md:justify-start space-x-4 md:ml-4 text-white">
                     <li>
@@ -25,6 +32,7 @@ const Footer = () => {
                             <img
                                 src={social.icon}
                                 alt={social.id}
+                                width={21} height={21}
                                 className={`w-[21px] h-[21px] object-contain cursor-pointer ${social.id !== socialMedia[socialMedia.length - 1].id
                                     ? "mr-6"
                                     : "mr-0"

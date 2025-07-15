@@ -8,6 +8,8 @@ const Guarantee = () => {
                     <img
                         src={garantia}
                         alt="Garantia de Satisfação"
+                        width={450}
+                        height={932}
                         className="max-w-xs mx-auto mb-10 md:mb-0"
                         loading="lazy"
                     />

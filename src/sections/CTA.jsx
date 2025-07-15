@@ -46,7 +46,7 @@ const CTA = () => {
                     ].map(({ icon, title, desc }, idx) => (
                         <div key={idx}>
                             <div className="flex justify-center items-center mb-2 w-10 h-10 lg:h-12 lg:w-12 rounded-full bg-primary-900">
-                                <img src={icon} alt={`Ícone de ${title}`} loading="lazy" />
+                                <img src={icon} alt={`Ícone de ${title}`} width={512} height={512} loading="lazy" />
                             </div>
                             <h3 className="mb-2 font-bold text-white">{title}</h3>
                             {desc && <p className="text-white-400">{desc}</p>}
