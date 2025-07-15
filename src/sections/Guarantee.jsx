@@ -9,6 +9,7 @@ const Guarantee = () => {
                         src={garantia}
                         alt="Garantia de Satisfação"
                         className="max-w-xs mx-auto mb-10 md:mb-0"
+                        loading="lazy"
                     />
                 </div>
                 <div className="flex items-center">

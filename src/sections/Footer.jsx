@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="w-full mx-auto">
             <div className="text-center mb-6 md:text-left md:flex md:items-center md:justify-between">
                 <div className="block mb-2">
-                    <img src={footerLogo} className="h-10 mx-auto md:mx-0" alt="Bailarina Preparada Logo" />
+                    <img src={footerLogo} className="h-10 mx-auto md:mx-0" alt="Bailarina Preparada Logo" loading="lazy" />
                 </div>
                 <ul className="flex justify-center md:justify-start space-x-4 md:ml-4 text-white">
                     <li>
@@ -29,6 +29,7 @@ const Footer = () => {
                                     ? "mr-6"
                                     : "mr-0"
                                     }`}
+                                loading="lazy"
                             />
                         </a>
                     ))}

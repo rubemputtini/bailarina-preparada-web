@@ -2,6 +2,7 @@ import Button from "../components/Button"
 import { statistics } from "../constants"
 import Typed from 'react-typed'
 import { useSpring, animated } from 'react-spring'
+import LiteYoutubePlayer from "../components/LiteYoutubePlayer";
 
 const AnimatedNumber = ({ value }) => {
     const { animatedValue } = useSpring({
@@ -43,17 +44,10 @@ const Hero = () => {
                 <p className="font-montserrat text-white text-sm md:text-lg leading-6 md:leading-8 mb-6 sm:max-w-sm">
                     Torne-se a bailarina que sempre sonhou com a ajuda da preparação física!
                 </p>
-                <iframe
-                    width="100%"
-                    height="auto"
-                    src="https://www.youtube.com/embed/ABsLsyHNofA?si=yLL93PwvNKvjTsVy"
-                    title="Apresentação do Clube"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    className="max-w-full md:hidden mb-8 w-full mx-auto"
-                    loading="lazy"
-                >
-                </iframe>
+                <LiteYoutubePlayer
+                    videoId="ABsLsyHNofA"
+                    className="md:hidden mb-8 mx-auto"
+                />
                 <div className="flex justify-center">
                     <Button label="QUERO FAZER PARTE!" />
                 </div>
@@ -67,17 +61,10 @@ const Hero = () => {
                 </div>
             </div>
             <div className="relative flex-1 flex justify-center xl:justify-end items-center xl:min-h-screen mt-10 xl:mt-0">
-                <iframe
-                    width="640"
-                    height="360"
-                    src="https://www.youtube.com/embed/ABsLsyHNofA?si=yLL93PwvNKvjTsVy"
-                    title="Apresentação do Clube"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                    className="max-w-full hidden md:block"
-                    loading="lazy"
-                >
-                </iframe>
+                <LiteYoutubePlayer
+                    videoId="ABsLsyHNofA"
+                    className="hidden md:block"
+                />
             </div>
         </section>
     )

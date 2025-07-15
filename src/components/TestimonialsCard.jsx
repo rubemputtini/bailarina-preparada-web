@@ -25,6 +25,7 @@ const TestimonialsCard = () => {
                                 className="md:h-[360px]"
                                 src={testimonial.youtubeVideo}
                                 allowFullScreen
+                                loading="lazy"
                             ></iframe>
                         </div>
                         <div className="md:w-1/2 mt-3 md:mt-0">

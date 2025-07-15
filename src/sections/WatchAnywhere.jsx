@@ -23,6 +23,7 @@ const WatchAnywhere = () => {
                     width={570}
                     height={522}
                     className='object-contain'
+                    loading="lazy"
                 />
             </div>
         </section>

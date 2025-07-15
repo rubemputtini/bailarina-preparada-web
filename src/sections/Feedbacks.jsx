@@ -13,7 +13,7 @@ const Feedbacks = () => {
             <Slide>
                 {feedbacks.map((item, index) => (
                     <div key={index} className="flex justify-center items-center h-[400px]">
-                        <img src={item.src} alt={`Feedback ${index}`} className="max-w-full max-h-full" />
+                        <img src={item.src} alt={`Feedback ${index}`} className="max-w-full max-h-full" loading="lazy" />
                     </div>
                 ))}
             </Slide>

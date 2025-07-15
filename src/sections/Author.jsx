@@ -13,6 +13,7 @@ const Author = () => {
                         src={isabella}
                         alt="Isabella Souza"
                         className="w-full h-auto md:w-64 md:h-64 mx-auto md:mx-0 md:mr-8 rounded-full border-4 border-purple-500 mb-4 md:mb-0"
+                        loading="lazy"
                     />
                     <div className="text-center md:text-left">
                         <h2 className="text-2xl md:text-3xl font-noto font-bold text-[#8794b4] mb-2">Isabella Souza</h2>
