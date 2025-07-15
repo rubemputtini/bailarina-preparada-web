@@ -1,4 +1,4 @@
-import FAQItem from "../components/FaqItem";
+import FAQItem from "../components/FAQItem";
 import { questionsFAQ } from "../constants";
 
 const FAQ = () => {
