@@ -9,7 +9,6 @@ O objetivo deste projeto é proporcionar uma experiência única para bailarinas
 ## Tecnologias Utilizadas
 
 - JavaScript
-- TypeScript
 - React
 - Tailwind CSS
 - Vite
